@@ -103,16 +103,16 @@ Go to the corresponding Etherscan link, e.g. https://rinkeby.etherscan.io/addres
 ## Test Deployments
 The smart contract [`SaentisGulden.sol`](https://gitlab.appswithlove.net/saentis-gulden/saentis-gulden-token-contract/-/blob/main/contracts/SaentisGulden.sol) has been deployed across all the major test networks:
 ### Version 1 (Without `permit` Functionality)
-- **Rinkeby:** [0x9C61c3Cf3159aaDd6E432886ad333d6Da1D79Ab3](https://rinkeby.etherscan.io/address/0x9C61c3Cf3159aaDd6E432886ad333d6Da1D79Ab3)
-- **Ropsten:** [0x10c35227901F2D1D19067E7c5798CF745e360dBc](https://ropsten.etherscan.io/address/0x10c35227901F2D1D19067E7c5798CF745e360dBc)
-- **Kovan:** [0xE9A36ba0a07afDd1C6169Ae4e4E065E1095Cb6bE](https://kovan.etherscan.io/address/0xE9A36ba0a07afDd1C6169Ae4e4E065E1095Cb6bE)
-- **Goerli:** [0xE9A36ba0a07afDd1C6169Ae4e4E065E1095Cb6bE](https://goerli.etherscan.io/address/0xE9A36ba0a07afDd1C6169Ae4e4E065E1095Cb6bE)
+- **Rinkeby:** TBD
+- **Ropsten:** TBD
+- **Kovan:** TBD
+- **Goerli:** TBD
 
 ### Version 2 (With `permit` Functionality)
-- **Rinkeby:** [0x0f64069aC10c5Bcc3396b26C892A36D22CdCf5A6](https://rinkeby.etherscan.io/address/0x0f64069aC10c5Bcc3396b26C892A36D22CdCf5A6)
-- **Ropsten:** [0x9b8D4cae1277a1FB56Af4C502A28B75C935f4ff3](https://ropsten.etherscan.io/address/0x9b8D4cae1277a1FB56Af4C502A28B75C935f4ff3)
-- **Kovan:** [0x95Ae9Af89643a60DE620727CEd783FAF609832d6](https://kovan.etherscan.io/address/0x95Ae9Af89643a60DE620727CEd783FAF609832d6)
-- **Goerli:** [0x8749A22918430fc598B3F48E04625B371B567F0c](https://goerli.etherscan.io/address/0x8749A22918430fc598B3F48E04625B371B567F0c)
+- **Rinkeby:** [0xF89BDCC76C4757C8C036bdC49cF4acE6977D6e41](https://rinkeby.etherscan.io/address/0xF89BDCC76C4757C8C036bdC49cF4acE6977D6e41)
+- **Ropsten:** TBD
+- **Kovan:** TBD
+- **Goerli:** TBD
 
 ## Production Deployments on SwissDLT
 The smart contract [`SaentisGulden.sol`](https://gitlab.appswithlove.net/saentis-gulden/saentis-gulden-token-contract/-/blob/main/contracts/SaentisGulden.sol) has been deployed to the SwissDLT network with [Remix<sup>*</sup> ](http://remix.ethereum.org) and signed with the Säntis Gulden hardware wallet (Ledger Nano S):
