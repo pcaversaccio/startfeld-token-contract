@@ -10,33 +10,33 @@
         "network_id": 4
     },
     "ropsten": {
-        "verifyingContract": "TBD",
+        "verifyingContract": "0x64e9465B3B965e10f8C093729c9280aF9f1D9648",
         "spenderAddress": "0x9F3f11d72d96910df008Cfe3aBA40F361D2EED03",
         "deadline": 1909147011,
         "name": "Startfeld Coin",
         "symbol": "SFC",
         "version": "1",
-        "domainSeperator": "TBD",
+        "domainSeperator": "0x464b47b1a80a42865286287489b073264fa9bc338410bccc21162637e5bcf694",
         "network_id": 3
     },
     "kovan": {
-        "verifyingContract": "TBD",
+        "verifyingContract": "0x6B956f1f061d43721453fb8F13D34ddb2419c0fC",
         "spenderAddress": "0x9F3f11d72d96910df008Cfe3aBA40F361D2EED03",
         "deadline": 1909147011,
         "name": "Startfeld Coin",
         "symbol": "SFC",
         "version": "1",
-        "domainSeperator": "TBD",
+        "domainSeperator": "0x394f45aa8b230435ddf09a24d0539dbc31d26cd370b616bdaa3d176590e684df",
         "network_id": 42
     },
     "goerli": {
-        "verifyingContract": "TBD",
+        "verifyingContract": "0xB9A82CCf8840c8DD9C082bA7b80cf6226B371477",
         "spenderAddress": "0x9F3f11d72d96910df008Cfe3aBA40F361D2EED03",
         "deadline": 1909147011,
         "name": "Startfeld Coin",
         "symbol": "SFC",
         "version": "1",
-        "domainSeperator": "TBD",
+        "domainSeperator": "0xf1b26dca0787f27d241aa8910516381a269707e9fd084cb3e385ccfdcfc43830",
         "network_id": 5
     },
     "swissdlt": {
