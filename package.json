@@ -1,0 +1,45 @@
+{
+  "name": "startfeld-token-contract",
+  "version": "2.0.0",
+  "description": "This is Startfeld's ERC-20 smart contract, whose tokens are used as vouchers in their ecosystem.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.appswithlove.net:22222/startfeld/startfeld-token-contract.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.appswithlove.net/startfeld/startfeld-token-contract/-/issues"
+  },
+  "keywords": [
+    "smartcontract",
+    "startfeld",
+    "bcts",
+    "ethereum",
+    "erc20",
+    "awl"
+  ],
+  "author": "Martin Moser & Pascal Marco Caversaccio, Apps with love AG",
+  "license": "MIT",
+  "dependencies": {
+    "@nomiclabs/hardhat-truffle5": "^2.0.0",
+    "@openzeppelin/contracts": "^4.0.0",
+    "@truffle/hdwallet-provider": "^1.2.3",
+    "bignumber.js": "^9.0.1",
+    "eth-sig-util": "^3.0.1",
+    "ethereumjs-util": "^7.0.10",
+    "ethereumjs-wallet": "^1.0.1",
+    "web3": "^1.4.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/test-helpers": "^0.5.11",
+    "hardhat": "^2.4.1",
+    "truffle-plugin-verify": "^0.5.7"
+  }
+}
