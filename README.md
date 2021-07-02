@@ -25,6 +25,11 @@ You can run the tests with
 npx hardhat test
 ```
 
+Furthermore, if you need to test the [`permit`](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#ERC20Permit-permit-address-address-uint256-uint256-uint8-bytes32-bytes32-) method on one of the live test networks, run the following command to generate the function parameters (assuming [Node.js](https://nodejs.org/en) is installed):
+```
+node .\scripts\sign-data.js
+```
+
 ## Deployment
 ### Local Deployment With Ganache
 To deploy the contract on your local Ganache blockchain, you must first install the software on your computer. Follow the installation [guide](https://www.trufflesuite.com/ganache).
