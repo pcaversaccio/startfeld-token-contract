@@ -8,18 +8,18 @@ import "@openzeppelin/contracts/access/AccessControl.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol";
 
 /**
- * @title Säntis Gulden ERC-20 Smart Contract
+ * @title Startfeld ERC-20 Smart Contract
  * @author Pascal Marco Caversaccio, pascal.caversaccio@hotmail.ch
  */
 
-contract SaentisGulden is ERC20, ERC20Burnable, Pausable, AccessControl, ERC20Permit {
+contract Startfeld is ERC20, ERC20Burnable, Pausable, AccessControl, ERC20Permit {
     bytes32 public constant PAUSER_ROLE = keccak256("PAUSER_ROLE");
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
 
-    constructor() ERC20("Saentis Gulden", "SGD") ERC20Permit("Saentis Gulden") {
+    constructor() ERC20("Startfeld Coin", "SFC") ERC20Permit("Startfeld Coin") {
         _setupRole(DEFAULT_ADMIN_ROLE, msg.sender);
         _setupRole(PAUSER_ROLE, msg.sender);
-        _mint(msg.sender, 100000 * 10 ** decimals());
+        _mint(msg.sender, 80000 * 10 ** decimals());
         _setupRole(MINTER_ROLE, msg.sender);
     }
 
