@@ -49,7 +49,7 @@ const buildData = (verifyingContract) => ({
 const data = buildData(tokenAddress); // Build the final data struct
 
 // -------------------SIGNATURE------------------- //
-const signature = sigUtil.signTypedData_v4(Buffer.from(privateKey, "hex"), { data }); // Generate the signature
+const signature = sigUtil.signTypedData_v4(Buffer.from(privateKey, 'hex'), { data }); // Generate the signature
 
 const { v, r, s } = ethUtil.fromRpcSig(signature); // Retrieve r (bytes32), s (bytes32), and v (uint8) variables of the signature
 
@@ -57,11 +57,11 @@ console.assert(ethUtil.toChecksumAddress(owner) == ethUtil.toChecksumAddress(sig
 console.log('----------------------------------------------','\n');
 
 // -------------------INPUT PARAMETERS FOR PERMIT TRANSACTION------------------- //
-console.log("owner (address): " + owner, '\n');
-console.log("spender (address): " + spender, '\n');
-console.log("value (uint256): " + value, '\n');
-console.log("deadline (uint256): " + deadline, '\n');
-console.log("v (uint8): " + v, '\n');
-console.log("r (bytes32): " + "0x" + r.toString('hex'), '\n');
-console.log("s (bytes32): " + "0x" + s.toString('hex'), '\n');
+console.log('owner (address): ' + owner, '\n');
+console.log('spender (address): ' + spender, '\n');
+console.log('value (uint256): ' + value, '\n');
+console.log('deadline (uint256): ' + deadline, '\n');
+console.log('v (uint8): ' + v, '\n');
+console.log('r (bytes32): ' + '0x' + r.toString('hex'), '\n');
+console.log('s (bytes32): ' + '0x' + s.toString('hex'), '\n');
 });
