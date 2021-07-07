@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@gitlab.appswithlove.net:22222/startfeld/startfeld-token-contract.git"
+    "url": "git+https://gitlab.appswithlove.net/startfeld/startfeld-token-contract.git"
   },
   "bugs": {
     "url": "https://gitlab.appswithlove.net/startfeld/startfeld-token-contract/-/issues"
