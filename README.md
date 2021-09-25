@@ -132,9 +132,9 @@ The smart contract [`Startfeld.sol`](https://gitlab.appswithlove.net/startfeld/s
 
 ### Version 2 (With `permit` Functionality)
 - [SwissDLT Block Explorer](https://swissdlt.appswithlove.net)
-- Contract creation transaction hash: TBD
-- **Contract address:** TBD
-- **Contract admin:** TBD
+- Contract creation transaction hash: [0x69d97aee3231c9ce7781108265c9db1ae01b9b38058a1bb5845d8d5e692daf80](https://swissdlt.appswithlove.net/tx/0x69d97aee3231c9ce7781108265c9db1ae01b9b38058a1bb5845d8d5e692daf80)
+- **Contract address:** [0xc6ffB8032eebe96338B54757e8960aBd426fD43B](https://swissdlt.appswithlove.net/address/0xc6ffB8032eebe96338B54757e8960aBd426fD43B)
+- **Contract admin:** [0xa4d7a3cBFe2923b57Dc68DeAd6692C3410c5605b](https://swissdlt.appswithlove.net/address/0xa4d7a3cBFe2923b57Dc68DeAd6692C3410c5605b)
 - Contract Application Binary Interface (ABI): Can be downloaded from the [snippet](https://gitlab.appswithlove.net/startfeld/startfeld-token-contract/-/snippets/14). This file was copied from Remix after compilation.
 > **Note 1:** Make sure that you always copy the full smart contract ABI and not just one of the inherited interfaces!
 

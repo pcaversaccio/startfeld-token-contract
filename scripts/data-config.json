@@ -40,13 +40,13 @@
         "network_id": 5
     },
     "swissdlt": {
-        "verifyingContract": "TBD",
+        "verifyingContract": "0xc6ffB8032eebe96338B54757e8960aBd426fD43B",
         "spenderAddress": "0x9F3f11d72d96910df008Cfe3aBA40F361D2EED03",
         "deadline": 1909147011,
         "name": "Startfeld Coin",
         "symbol": "SFC",
         "version": "1",
-        "domainSeperator": "TBD",
+        "domainSeperator": "0xda6d6791aecacead7fdf156b0e09eb878c01f82d49cf6c1a62f3ee2b20dd76da",
         "network_id": 999
     }
 }
